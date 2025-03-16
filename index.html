@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="blackjack.css">
+    
+</head>
+<body>
+    <header>BLACK JACK</header>
+    
+    <div class="chance"></div><a href="blackjackrules.html">Rules--></a>
+    <audio autoplay loop>
+        <source src="blackjack.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="winnerSound" src="winner.mp3" preload="auto"></audio>
+    <audio id="loserSound" src="loser.mp3" preload="auto"></audio>
+    <audio id="buttonSound" src="button.wav" preload="auto"></audio>
+    <audio id="notiSound" src="noti.wav" preload="auto"></audio>
+    <form >
+        
+        <div class="status1"><button class="Start">Start Game</button></div>
+    <div class="arun">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div id="messageBox" style="display: none; position: fixed; justify-content:center;text-align:center;align-items:center; background-color: rgb(234, 231, 231); font-size:40px;color: rgb(0, 0, 0);width:600px;height:100px; padding: 10px; border-radius: 5px; "></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+    </div>
+    <div class="ScoreBoard">Your Score Will Display Here</div>
+    <div class="buttons">
+    <button class="Next">Next Card</button>
+    <button class=" Stop">Stop</button>
+    <button class="add">drop card</button>
+    <button class="Restart">Re-Start Game</button>
+</div>
+    </form>
+    <script src="blackjack.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game Rules</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120vh;
+            align-items: center;
+            background-image:url("bg.jpg") ;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: seashell;
+            
+        }
+        ol {
+            margin: 20px;
+            background:sandybrown;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            list-style: decimal inside;
+            max-width: 1000px;
+            width: 100%;
+            font-size: 120%;
+            box-shadow: 0 0 20px gold;
+        }
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        @keyframes move {
+            0%{
+                transform:scale(1);
+            } 100% {
+                transform:scale(1);
+            }
+            50% {
+                transform:scale(0.9);
+            }
+        }
+        a{
+            color: orangered;
+            text-decoration: dashed;
+            margin-inline-start: 400px;
+        }
+        a:hover{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Blackjack Game Rules:</h2>
+<ol>
+    <li><b>Winning Condition:</b>
+        <ul>
+            <li>You win if the total value of your cards equals exactly 21.</li>
+        </ul>
+    </li>
+    <li><b>Taking Additional Cards:</b>
+        <ul>
+            <li>If your score is below 21, you may continue taking additional cards to improve your score.</li>
+        </ul>
+    </li>
+    <li><b>Card Dropping and Drawing:</b>
+        <ul>
+            <li>If your score exceeds 21, you can drop one card and draw a new one. You have up to 5 chances to do this.</li>
+        </ul>
+    </li>
+    <li><b>Game Progression:</b>
+        <ul>
+            <li>You may continue drawing cards until you either win, lose, or choose to stop the game.</li>
+        </ul>
+    </li>
+</ol>
+
+        <h2>How to Play Game?</h2>
+        <ol> 
+            <li>To start the game, press the <b>"Start Game"</b> button.
+                <li>If your score is less than 21, a <b>"Next Card"</b> button will appear, allowing you to draw additional cards.</li>
+                
+                <li>The <b>"Stop"</b> button allows you to pause the game.
+                If you want to start a new game, it will prompt you for confirmation before resetting.</li>
+                <li>The<b>"Drop"</b>button allows you to drop a card</li>
+                <li>The <b>"Restart"</b> button will start a fresh game..<a href="index.html">go back-></a></li>
+        </ol>
+    </div>
+</body>
+</html>
